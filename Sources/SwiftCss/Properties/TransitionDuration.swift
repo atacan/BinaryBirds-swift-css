@@ -16,7 +16,7 @@ public enum TransitionDurationValue {
     /// Inherits this property from its parent element.
     case inherit
     
-    var rawValue: String {
+    public var rawValue: String {
         switch self {
         case .zero:
             return "0"
